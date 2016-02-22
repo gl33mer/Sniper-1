@@ -52,7 +52,7 @@ public class ScoreManager : MonoBehaviour {
 			GUI.skin = skin;
 		}
 		GUI.skin.label.fontSize = 35;
-		GUI.skin.label.normal.textColor = Color.black;
+		GUI.skin.label.normal.textColor = Color.white;
 		GUI.skin.label.alignment = TextAnchor.MiddleLeft;
 		GUI.Label(new Rect(20,20,300,40),"SCORE "+Score);
 		GUI.skin.label.fontSize = 20;
